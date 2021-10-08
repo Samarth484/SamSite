@@ -92,7 +92,7 @@ class NumberElement {
 
 class NumberElementCollector {
 
-    constructor(count = 100, spawnTimeout = 20) {
+    constructor(count = 30, spawnTimeout = 20) {
         this.numberElements = []
 
         let generator = () => {
