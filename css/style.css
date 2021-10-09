@@ -2336,3 +2336,114 @@ ul {
     border-radius: 20px;
     color: #FFF;
 }
+
+.contact {
+    top: 230px;
+    position: relative;
+    font-size: 70%;
+    width: 140px;
+    display: inline-block;
+    cursor: pointer;
+    padding-bottom: 16px;
+    margin-bottom: 200px;
+}
+
+.contact-section {
+    /* background-color: #333; */
+    /* background: #3a6186;
+    /* fallback for old browsers
+background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #89253e, #3a6186); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* */ background-size: cover; */ */
+    height: 350px;
+    padding-top: 20px;
+}
+
+.contact-buttons {
+    display: block;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    text-align: center;
+}
+
+.btn-linkedin {
+    background: #0E76A8;
+    border-radius: 10px;
+    color: #fff;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #084461;
+}
+
+.btn-twitter {
+    background: #1DA1F2;
+    border-radius: 10px;
+    color: #fff;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #084461;
+}
+
+.btn-whatsapp {
+    background: #00E676;
+    border-radius: 10px;
+    color: #fff;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #084461;
+}
+
+.btn-mobile {
+    background: #43B51F;
+    border-radius: 10px;
+    color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #084461;
+    margin: 10px;
+}
+
+.btn-github {
+    background-color: #24292e;
+    border-radius: 10px;
+    color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #084461;
+    margin: 10px;
+}
+
+.btn-email {
+    background-color: #EACB3F;
+    border-radius: 10px;
+    color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #084461;
+    margin: 10px;
+}
+
+.btn-facebook {
+    background-color: #4267b2;
+    border-radius: 10px;
+    color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #084461;
+    margin: 10px;
+}
+
+@media (min-width: 1400px) {
+
+    .banner,
+    .skills,
+    .ex-timeline,
+    .portfolios,
+    .contact-section {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
