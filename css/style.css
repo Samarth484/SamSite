@@ -2346,6 +2346,7 @@ ul {
     cursor: pointer;
     padding-bottom: 16px;
     margin-bottom: 200px;
+    font-family: "Montserrat", Georgia, serif;
 }
 
 .contact-section {
@@ -2355,9 +2356,11 @@ ul {
 background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
     /* background: linear-gradient(to right, #89253e, #3a6186); */
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /* */ background-size: cover; */ */
-    height: 350px;
+    /* */
+    background-size: cover;
+    */ */ height: 350px;
     padding-top: 20px;
+    font-family: "Montserrat", Georgia, serif;
 }
 
 .contact-buttons {
@@ -2446,4 +2449,27 @@ background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-2
         background-attachment: fixed;
         background-position: center;
     }
+}
+
+footer {
+    background: #5614B0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DBD65C, #5614B0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DBD65C, #5614B0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    /* padding-bottom: : -20px; */
+}
+
+#footer {
+    color: white;
 }
