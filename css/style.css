@@ -145,7 +145,7 @@ figure figcaption {
 .animate {
   background-image: linear-gradient(130deg, #cdf6ed, #fefcf1, #ebd1f4, #aaf3e0, #e8ecf0, #fff7da, #fff0e2, #e3bce8, #a5e0e4, #9aecdb, #d8f3c9, #fff7da, #fefcf1, #d8fffe, #d4f2eb, #b1dadc, #e5dcff, #f6cee9);
   background-size: 2000%;
-  animation: bganimation 250s infinite
+  animation: bganimation 90s infinite
 }
 
 @keyframes bganimation {
